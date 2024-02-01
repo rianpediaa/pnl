@@ -20,7 +20,7 @@ app.get('/api/reset',async (req, res) => {
 })
 
 app.post('/api/token/get',async (req, res) => {
-  const baseUrl = 'http://localhost:3000/'
+  const baseUrl = 'https://panel.cyclic.app/'
   const LinkApi = 'https://semawur.com/st/?api=0e0289e29b1516500e810b11cae46a1bafef9059&url='
   try {
     const result = getToken()
